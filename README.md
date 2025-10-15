@@ -1,6 +1,6 @@
 # Portfolio QA - María Jesús y Laura MD
 This is our portfolio QA Projects  
-🔗 [Ver Web Portfolio QA]([https://marialauramdqa.github.io/portfolioqa/](https://marialauramdqa.github.io/portfolioqa/))
+🔗 ([https://marialauramdqa.github.io/portfolioqa/](https://marialauramdqa.github.io/portfolioqa/))
 
 ---
 
