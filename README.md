@@ -1,6 +1,6 @@
-# Portfolio QA
+# Portfolio QA - María Jesús y Laura MD
 This is our portfolio QA Projects  
-🔗 [Ver Web Portfolio QA](https://bootcamp-qa.github.io/portfolioqa/)
+🔗 [Ver Web Portfolio QA](https://bootcamp-qa.github.io/portfolioqa/](https://marialauramdqa.github.io/portfolioqa/)
 
 ---
 
@@ -32,7 +32,7 @@ Para ejecutar los tests:
 
 ---
 
-## 👩‍💻 Autor
-**Reyes Díaz – QA Junior**  
-[🔗 LinkedIn](https://www.linkedin.com/in/reyescuesta)
+## 👩‍💻 Authors
+**María Jesús Monge** 
+**Laura Monge Domínguez**
 
