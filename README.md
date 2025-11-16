@@ -10,25 +10,25 @@ This is our portfolio QA Projects
 
 ---
 
-## ⚙️ Funcionalidades principales
-- Menú de navegación responsive
-- Header con nombre, título profesional y enlaces a redes
-- Sección de proyectos QA con descripción detallada
-- Sección de formación académica
-- Formulario de contacto
+## ⚙️ Main Features
+- Responsive navigation menu
+- Header with name, professional title, and social media links.
+- QA projects section with detailed descriptions
+- Education background section
+- Contact form
 
 ---
 
 ## QA Tests
-Este portfolio incluye pruebas de regresión automatizadas con **Katalon Studio (Selenium)** de todas las funcionalidades principales. 
+This portfolio includes automated regression testing using **Katalon Studio (Selenium)** for all main features. 
 
 ![Resultados](./tests/resultados.png)
 
-Para ejecutar los tests:
-1. Descarga la carpeta tests
-2. Abre el navegador chrome, busca e instala la extensión Katalon Recorder (Selenium Tests) [🔗 Extensiones Chrome](https://chromewebstore.google.com/ )
-3. Abre la extensión Katalon Recorder y elige la opción Open test suite. Abre la carpeta tests que has descargado.
-4. Ejecuta los test haciendo clic en Play all suites.
+To Run the test:
+1. Download the test foder.
+2. Open **Google Chrome**, search for and install the extension **Katalon Recorder (Selenium Test)** from the [🔗 Extensiones Chrome](https://chromewebstore.google.com/ )
+3. Open the **Katalon Recorder** extension and select **Open test suite**. Locate and open the downloaded **test** folder.
+4. Run the test by clicking **Play all suites**.
 
 ---
 
