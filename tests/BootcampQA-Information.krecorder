@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>BootcampQA-Information</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">View information about me</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://marialauramdqa.github.io/portfolioqa/<datalist><option>https://marialauramdqa.github.io/portfolioqa/</option></datalist></td><td></td></tr>
+<tr><td>assertElementPresent</td><td>id=titulosobremi<datalist><option>id=titulosobremi</option><option>xpath=//h2[@id='titulosobremi']</option><option>xpath=//section[@id='sobremi']/h2</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='María Jesús Monge'])[1]/following::h2[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/following::h2[1]</option><option>xpath=//h2</option><option>css=#titulosobremi</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">View information projects and visit links</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://marialauramdqa.github.io/portfolioqa/<datalist></datalist></td><td></td></tr>
+<tr><td>echo</td><td>The projects section is visible<datalist></datalist></td><td></td></tr>
+<tr><td>assertElementPresent</td><td>id=tituloproyectos<datalist></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=linkproyectoportafolio<datalist></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">View information about education</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://marialauramdqa.github.io/portfolioqa/<datalist><option>https://marialauramdqa.github.io/portfolioqa/</option></datalist></td><td></td></tr>
+<tr><td>assertElementPresent</td><td>id=tituloeducacion<datalist><option>id=tituloeducacion</option><option>xpath=//h2[@id='tituloeducacion']</option><option>xpath=//section[@id='educacion']/h2</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Newman'])[1]/following::h2[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='GitHub Actions'])[2]/following::h2[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Bootcamp Manual QA, API y Automation – Bootcamp QA'])[1]/preceding::h2[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='September 2025 – December 2025'])[1]/preceding::h2[1]</option><option>xpath=//*/text()[normalize-space(.)='Education.']/parent::*</option><option>xpath=//section[3]/h2</option><option>css=#tituloeducacion</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>xpath=//section[@id='educacion']/h3<datalist><option>xpath=//section[@id='educacion']/h3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Newman'])[1]/following::h3[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='September 2025 – December 2025'])[1]/preceding::h3[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='QA & Testing:'])[1]/preceding::h3[1]</option><option>xpath=//*/text()[normalize-space(.)='Bootcamp Manual QA, API y Automation – Bootcamp QA']/parent::*</option><option>xpath=//section[3]/h3</option><option>css=#educacion > h3</option></datalist></td><td>Bootcamp Manual QA, API y Automation – Bootcamp QA</td></tr>
+<tr><td>assertText</td><td>xpath=//section[@id='educacion']/h3[2]<datalist><option>xpath=//section[@id='educacion']/h3[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Tools and Technologies:'])[1]/following::h3[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Automation:'])[1]/following::h3[1]</option><option>xpath=//section[3]/h3[2]</option></datalist></td><td>Bachelor's Degree at Social Work – Pablo de Olavide University</td></tr>
+</tbody></table>
+</body>
+</html>

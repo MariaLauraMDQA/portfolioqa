@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>BootcampQA - Header</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">View the header with name, title and GitHub Link</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://marialauramdqa.github.io/portfolioqa/<datalist><option>https://marialauramdqa.github.io/portfolioqa/</option></datalist></td><td></td></tr>
+<tr><td>echo</td><td>Check the name in the header<datalist><option>Check the name in the header</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>id=nombre<datalist><option>id=nombre</option><option>xpath=//h1[@id='nombre']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/following::h1[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Education'])[1]/following::h1[1]</option><option>xpath=//*/text()[normalize-space(.)='María Jesús Monge']/parent::*</option><option>xpath=//h1</option><option>css=#nombre</option></datalist></td><td>María Jesús Monge</td></tr>
+<tr><td>echo</td><td>Check the title in the header<datalist><option>Check the title in the header</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>id=titulo<datalist><option>id=titulo</option><option>xpath=//p[@id='titulo']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='María Jesús Monge'])[1]/following::p[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/following::p[1]</option><option>xpath=//*/text()[normalize-space(.)='Junior QA']/parent::*</option><option>xpath=//p</option><option>css=#titulo</option></datalist></td><td>Junior QA</td></tr>
+<tr><td>echo</td><td>Visit GitHub link<datalist><option>Visit GitHub link</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=linkgithub<datalist><option>id=linkgithub</option><option>xpath=//a[@id='linkgithub']</option><option>xpath=//a[contains(@href, 'https://github.com/MariaLauraMDQA/portfolioqa')]</option><option>xpath=//p[2]/a</option><option>css=#linkgithub</option></datalist></td><td></td></tr>
+<tr><td>assertLocation</td><td>https://github.com/MariaLauraMDQA/portfolioqa<datalist><option>https://github.com/MariaLauraMDQA/portfolioqa</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://marialauramdqa.github.io/portfolioqa/<datalist><option>https://marialauramdqa.github.io/portfolioqa/</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>
