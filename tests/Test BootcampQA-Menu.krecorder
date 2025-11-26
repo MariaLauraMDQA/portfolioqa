@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-<title>BootcampQA-Menu</title>
+<title>Test BootcampQA-Menu</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
@@ -12,12 +12,16 @@
 </thead>
 <tbody>
 <tr><td>open</td><td>https://marialauramdqa.github.io/portfolioqa/<datalist><option>https://marialauramdqa.github.io/portfolioqa/</option></datalist></td><td></td></tr>
+<tr><td>echo</td><td>Visit the About me menu<datalist><option>Visit the About me menu</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>id=menusobremi<datalist><option>id=menusobremi</option><option>link=About me</option><option>xpath=//a[contains(text(),'About me')]</option><option>xpath=//a[@id='menusobremi']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Project'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Education'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='About me']/parent::*</option><option>xpath=//a[contains(@href, '#sobremi')]</option><option>xpath=//a</option><option>css=#menusobremi</option></datalist></td><td></td></tr>
 <tr><td>assertLocation</td><td>https://marialauramdqa.github.io/portfolioqa/#sobremi<datalist><option>https://marialauramdqa.github.io/portfolioqa/#sobremi</option></datalist></td><td></td></tr>
+<tr><td>echo</td><td>Visit the Projects menu<datalist><option>Visit the projects menu</option><option>Visit the Projects menu</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>id=menuproyectos<datalist><option>id=menuproyectos</option><option>link=Project</option><option>xpath=//a[contains(text(),'Project')]</option><option>xpath=//a[@id='menuproyectos']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='About me'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Education'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Project']/parent::*</option><option>xpath=//a[contains(@href, '#proyectos')]</option><option>xpath=//li[2]/a</option><option>css=#menuproyectos</option></datalist></td><td></td></tr>
 <tr><td>assertLocation</td><td>https://marialauramdqa.github.io/portfolioqa/#proyectos<datalist><option>https://marialauramdqa.github.io/portfolioqa/#sobremi</option><option>https://marialauramdqa.github.io/portfolioqa/#proyectos</option></datalist></td><td></td></tr>
+<tr><td>echo</td><td>Visit the Education menu<datalist><option>Visit the Education</option><option>Visit the Education menu</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>id=menueducacion<datalist><option>id=menueducacion</option><option>link=Education</option><option>xpath=//a[contains(text(),'Education')]</option><option>xpath=//a[@id='menueducacion']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Project'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='About me'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='María Jesús Monge'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Education']/parent::*</option><option>xpath=//a[contains(@href, '#educacion')]</option><option>xpath=//li[3]/a</option><option>css=#menueducacion</option></datalist></td><td></td></tr>
 <tr><td>assertLocation</td><td>https://marialauramdqa.github.io/portfolioqa/#educacion<datalist><option>assertLocation</option><option>https://marialauramdqa.github.io/portfolioqa/#educacion</option></datalist></td><td></td></tr>
+<tr><td>echo</td><td>Visit the Contact menu<datalist><option>Visit the Contact menu</option></datalist></td><td></td></tr>
 <tr><td>click</td><td>id=menucontacto<datalist><option>id=menucontacto</option><option>link=Contact</option><option>xpath=//a[contains(text(),'Contact')]</option><option>xpath=//a[@id='menucontacto']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Education'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Project'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='María Jesús Monge'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Contact']/parent::*</option><option>xpath=//a[contains(@href, '#contacto')]</option><option>xpath=//li[4]/a</option><option>css=#menucontacto</option></datalist></td><td></td></tr>
 <tr><td>assertLocation</td><td>https://marialauramdqa.github.io/portfolioqa/#contacto<datalist><option>https://marialauramdqa.github.io/portfolioqa/#contacto</option></datalist></td><td></td></tr>
 </tbody></table>

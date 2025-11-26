@@ -19,10 +19,13 @@
 <tr><td rowspan="1" colspan="3" data-tags="">View information projects and visit links</td></tr>
 </thead>
 <tbody>
-<tr><td>open</td><td>https://marialauramdqa.github.io/portfolioqa/<datalist></datalist></td><td></td></tr>
-<tr><td>echo</td><td>The projects section is visible<datalist></datalist></td><td></td></tr>
-<tr><td>assertElementPresent</td><td>id=tituloproyectos<datalist></datalist></td><td></td></tr>
-<tr><td>click</td><td>id=linkproyectoportafolio<datalist></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://marialauramdqa.github.io/portfolioqa/<datalist><option>https://marialauramdqa.github.io/portfolioqa/</option></datalist></td><td></td></tr>
+<tr><td>echo</td><td>The project section is available<datalist><option>The project section is available</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=linkproyectoportafolio<datalist><option>id=linkproyectoportafolio</option><option>link=Portfolio QA Web</option><option>xpath=//a[contains(text(),'Portfolio QA Web')]</option><option>xpath=//a[@id='linkproyectoportafolio']</option><option>xpath=//section[@id='proyectos']/h3/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='HTML5'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='CSS3'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Portfolio QA Web']/parent::*</option><option>xpath=//h3/a</option><option>css=#linkproyectoportafolio</option></datalist></td><td></td></tr>
+<tr><td>assertLocation</td><td>https://github.com/MariaLauraMDQA/portfolioqa<datalist><option>https://github.com/MariaLauraMDQA/portfolioqa</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://marialauramdqa.github.io/portfolioqa/<datalist><option>https://marialauramdqa.github.io/portfolioqa/</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=linkproyectoapi<datalist><option>id=linkproyectoapi</option><option>link=API de Usuarios</option><option>xpath=//a[contains(text(),'API de Usuarios')]</option><option>xpath=//a[@id='linkproyectoapi']</option><option>xpath=//section[@id='proyectos']/h3[2]/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='GitHub Actions'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='SQLbase'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Postman'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='API de Usuarios']/parent::*</option><option>xpath=//a[contains(@href, 'https://www.postman.com/majemodo22-8733813/api-users/collection/1apzctb/api-users')]</option><option>xpath=//h3[2]/a</option><option>css=#linkproyectoapi</option></datalist></td><td></td></tr>
+<tr><td>assertLocation</td><td>https://www.postman.com/majemodo22-8733813/api-users/collection/1apzctb/api-users<datalist><option>https://www.postman.com/majemodo22-8733813/api-users/collection/1apzctb/api-users</option></datalist></td><td></td></tr>
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
